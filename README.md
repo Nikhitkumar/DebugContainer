@@ -6,7 +6,7 @@ Lauch the debug tools container in the pid,network namespace of a different cont
 
 
 ```
-TARGET=target_container
+TARGET=target_container_id
 
 docker run \
   --pid container:$TARGET \
@@ -14,6 +14,6 @@ docker run \
   --cap-add NET_RAW \
   --cap-add NET_ADMIN \
   --cap-add SYS_PTRACE \
-  -ti
+  -ti \
   nikhitkumar/debug_container:main
 ```
