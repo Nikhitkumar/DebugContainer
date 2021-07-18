@@ -1,7 +1,7 @@
 # DebugContainer
 Container with all debug tools 
 
-## How to run 
+## How to run the debug container 
 Lauch the debug tools container in the pid,network namespace of a different container
 
 
