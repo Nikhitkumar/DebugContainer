@@ -1,5 +1,5 @@
 # DebugContainer
-Container with all debug tools 
+Container with all debug tools such as htop, ps etc
 
 ## How to run 
 Lauch the debug tools container in the pid,network namespace of a different container
